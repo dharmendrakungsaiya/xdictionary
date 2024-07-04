@@ -38,7 +38,7 @@ function App() {
         onChange={(e) => setSearchTerm(e.target.value)} 
       />
       <button type="submit" onClick={handleSearch}>Search</button>
-      <p><strong>Definition:</strong></p>
+      <p>Definition:</p>
       <p>{result}</p>
     </div>
   );
